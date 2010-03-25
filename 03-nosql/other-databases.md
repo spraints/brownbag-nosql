@@ -19,11 +19,10 @@
 * Column-oriented
 * Document-oriented
 
-!SLIDE
+!SLIDE full-page-image
 
 ![Visual guide to nosql systems](visual-guide-to-nosql-systems.png)
 
-[Credit](http://blog.nahurst.com/visual-guide-to-nosql-systems)
 
 !SLIDE
 
