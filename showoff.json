@@ -1,1 +1,7 @@
-[ {"section":"one"} ]
+[
+  {"section":"01-intro"},
+  {"section":"02-relational"},
+  {"section":"03-nosql"} /*,
+  {"section":"04-examples"},
+  {"section":"05-wrapup"}*/
+]
