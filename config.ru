@@ -1,2 +1,2 @@
-require "showoff"
+require 'brownbag-nosql'
 run ShowOff.new

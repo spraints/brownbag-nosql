@@ -1,0 +1,35 @@
+--- 
+dependencies: 
+  showoff: 
+    group: 
+    - :default
+    version: ">= 0"
+  bluecloth: 
+    group: 
+    - :default
+    version: ">= 0"
+  nokogiri: 
+    group: 
+    - :default
+    version: ">= 0"
+specs: 
+- nokogiri: 
+    version: 1.4.1
+- json: 
+    version: 1.2.3
+- rack: 
+    version: 1.1.0
+- sinatra: 
+    version: "1.0"
+- bluecloth: 
+    version: 2.0.7
+- showoff: 
+    version: 0.1.1
+    source: 1
+hash: 0664663073dd6ebb5bbc475aa73bb5ed1ec78753
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
+- Git: 
+    uri: git://github.com/spraints/showoff.git
+    ref: 7dbdb17b451dd675d49f18a815b587a4e89adf06
