@@ -30,19 +30,86 @@
 
 ![Visual guide to nosql systems](visual-guide-to-nosql-systems.png)
 
-# should this be used in place of the other slides?
-
 !SLIDE
 # how to use some of these
 
-!SLIDE
-# (redis commands)
+!SLIDE commandline incremental
+
+# Redis
+
+	$ SET presentation:name "NOSQL Brown Bag"
+	"OK"
+
+	$ GET presentation:name
+	"NOSQL Brown Bag"
+
+!SLIDE commandline incremental
+
+# Redis
+
+	$ SET presentation:slides 1
+	"OK"
+
+	$ INCR presentation:slides
+	2
+
+!SLIDE commandline incremental
+
+# Redis
+
+	$ SET presentation:interesting true
+	"OK"
+
+	$ EXPIRE presentation:interesting 45
+	"OK"
+
+	$ TTL presentation:interesting
+	37
+
+!SLIDE bullets
+
+# Redis
+
+* List
+* Set
+* Sorted set
+* <http://try.redis-db.com/>
 
 !SLIDE
-# (couch documents)
+
+# CouchDB
+
+	@@@ javascript
+	{
+	  "first_name": "Matt",
+	  "employer": "SEP",
+	  "hobbies": [
+	    "programming",
+	    "farming"
+	  ]
+	}
+
+!SLIDE commandline incremental
+
+# CouchDB
+
+	$ curl -X PUT http://localhost:5984/test/
+	{"ok":true}
+
+	$ curl -X PUT -d '{"name": "Matt"}' http://localhost:5984/test/maburke
+	{"ok":true,"id":"maburke",
+	"rev":"1-47804390369d435cb116403da935bdd5"}
+
+	$ curl http://localhost:5984/test/maburke
+	{"_id":"maburke","_rev":"1-47804390369d435cb116403da935bdd5",
+	"name":"Matt"}
+	
 
 !SLIDE
-# (couch design documents)
+
+# CouchDB
+
+	@@@ javascript
 
 !SLIDE
 # (mongo documents)
