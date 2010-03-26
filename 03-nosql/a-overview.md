@@ -1,7 +1,7 @@
 !SLIDE
 	@@@ sql
 	select d.database_name
-	from databases d
+	from dbms d
 	  join database_types t
 	  on t.id = d.database_type_id
 	where t.database_type <> 'Relational'
@@ -23,7 +23,7 @@
 	@@@ sql
 	select database_type, database_name
 	from database_types t
-	  join databases d
+	  join dbms d
 	  on d.database_type_id = t.id
 
 !SLIDE full-page

@@ -1,7 +1,7 @@
 !SLIDE
 	@@@ sql
 	select *
-	from databases
+	from dbms
 
 !SLIDE
 
@@ -10,13 +10,13 @@
 !SLIDE
 	@@@ sql
 	select database_name
-	from databases
+	from dbms
 	where is_relational = 1
 
 !SLIDE
 	@@@ sql
 	select d.database_name
-	from databases d
+	from dbms d
 	  join database_types t
 	  on t.id = d.database_type_id
 	where t.database_type = 'Relational'

@@ -1,0 +1,21 @@
+#preso, .slide, pre.sh_sourceCode
+{
+  background-color: black;
+  color: white;
+}
+
+.slide
+{
+  border: none;
+}
+
+.commandline code.command
+{
+  color: green;
+  white-space: normal;
+}
+
+pre.sh_sourceCode .sh_string
+{
+  color: #e9967a;
+}
