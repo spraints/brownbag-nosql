@@ -16,24 +16,39 @@
 # Database types #
 
 * Key-value
-* Column-oriented
 * Document-oriented
+* Column-oriented
 
-!SLIDE full-page-image
+!SLIDE
+	@@@ sql
+	select database_type, database_name
+	from database_types t
+	  join databases d
+	  on d.database_type_id = t.id
+
+!SLIDE full-page
 
 ![Visual guide to nosql systems](visual-guide-to-nosql-systems.png)
 
+# should this be used in place of the other slides?
 
 !SLIDE
-
-# TODO: key-value store examples
-* redis
-* memcached
-* ???
+# how to use some of these
 
 !SLIDE
+# (redis commands)
 
-# TODO: document database
-* couchdb
-* mongodb
-* riak
+!SLIDE
+# (couch documents)
+
+!SLIDE
+# (couch design documents)
+
+!SLIDE
+# (mongo documents)
+
+!SLIDE
+# (mongo map-reduce)
+
+!SLIDE
+# (bigtable stuff)
