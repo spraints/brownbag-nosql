@@ -19,3 +19,14 @@ pre.sh_sourceCode .sh_string
 {
   color: #e9967a;
 }
+
+.bullets ul
+{
+  list-style: circle;
+}
+
+.bullets ul li
+{
+  text-align: left;
+  margin-left: 2em;
+}
