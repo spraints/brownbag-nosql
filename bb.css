@@ -1,7 +1,12 @@
-#preso, .slide, pre.sh_sourceCode
+body, #preso, .slide, pre.sh_sourceCode
 {
   background-color: black;
   color: white;
+}
+
+#footer
+{
+  color: black;
 }
 
 .slide
@@ -29,4 +34,14 @@ pre.sh_sourceCode .sh_string
 {
   text-align: left;
   margin-left: 2em;
+}
+
+.argument-for
+{
+  color: green;
+}
+
+.argument-against
+{
+  color: red;
 }

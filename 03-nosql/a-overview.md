@@ -18,6 +18,7 @@
 * Key-value
 * Column-oriented <!-- common for OLAP or data warehouses, stores columns first instead of rows -->
 * Document-oriented
+* Graph
 
 !SLIDE
 	@@@ sql

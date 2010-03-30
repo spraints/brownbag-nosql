@@ -9,6 +9,10 @@
 	 "name" : "116th" ,
 	 "traffic" : "bad"}
 
+!SLIDE commandline incremental
+
+# Mongo
+
 	$ db.streets.save({"name": "116th", "traffic": "bad", "_id": ObjectId( "4bb120d37e2b5a6e0477dd7b"), "cities": ["Carmel", "Fishers"]})
 
 	$ db.streets.save({"name": "96th", "traffic": "bad",  "cities": ["Carmel", "Fishers", "Indianapolis"]})
@@ -28,6 +32,3 @@
 	 "name" : "96th" ,
 	 "traffic" : "bad" ,
 	 "cities" : ["Carmel","Fishers","Indianapolis"]}
-
-!SLIDE
-# (mongo map-reduce)
