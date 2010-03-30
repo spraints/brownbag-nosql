@@ -6,6 +6,8 @@
 !SLIDE argument-for
 # Scalability
 !SLIDE argument-for
+# Write-heavy apps
+!SLIDE argument-for
 # Flexbile schema
 !SLIDE argument-for
 # Analytics
@@ -13,3 +15,7 @@
 # Stability
 !SLIDE argument-against
 # Maturity
+!SLIDE argument-against
+# Set operations
+!SLIDE argument-against
+# Updates

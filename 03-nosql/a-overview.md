@@ -56,3 +56,19 @@
  MemcacheDB - persistence for memcache
  Redis - open source
 -->
+
+!SLIDE
+# Consistency
+> All clients always have the same view of the data.
+
+!SLIDE
+# Availability
+> Each client can always read and write.
+
+!SLIDE
+# Partition Tolerance
+> The system works well despite physical network partitions.
+
+!SLIDE full-page
+
+![Visual guide to nosql systems](visual-guide-to-nosql-systems.png)
